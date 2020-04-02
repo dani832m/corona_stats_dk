@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="da-DK">
+  <head>
+    <!-- Meta Content -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="De kedelige tal - Corona-statistik for den danske befolkning" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Favicon & Apple Touch Icon -->
+    <link href="img/favicon.png" rel="icon" type="image/png" sizes="32x32" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!-- Google Font API -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Play:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Stylesheet -->
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- Title Tag -->
+    <title>Corona-statistik for den danske befolkning</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="stats">
+        <h1>Corona i Danmark</h1>
+        <div class="stats-today">
+          <h2>I dag</h2>
+          <ul>
+            <li>Smittede: <span class="stats-today-confirmed"></span></li>
+            <li>Døde: <span class="stats-today-deaths"></span></li>
+          </ul>
+        </div>
+        <div class="stats-total">
+          <h2>I alt</h2>
+          <ul>
+            <li>Smittede: <span class="stats-total-confirmed"></span></li>
+            <li>Døde: <span class="stats-total-deaths"></span></li>
+            <li>Raskmeldte: <span class="stats-total-recovered"></span></li>
+          </ul>
+        </div>
+        <div class="footer">
+          Statistikken opdateres dynamisk og er baseret på data fra The World Health Organization Situation Reports,
+          Johns Hopkins CSSE, The U.S. Department of Health & Human Services, The National Health Commission of the
+          People’s Republic of China, The European Centre for Disease Prevention and Control og China CDC Weekly.
+          <span class="footer-close-button">Luk</span>
+        </div>
+      </div>
+      <h1 class="source toggle-source">Kilde</h1>
+    </div>
+    <!-- Include Custom JavaScript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

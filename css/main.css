@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  position: relative;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 34px;
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding-bottom: 1px;
+  font-family: "Play", sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+ul {
+  list-style: square inside;
+}
+
+li {
+  font-size: 23px;
+  margin: 15px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(247, 247, 247, 0.7), rgba(247, 247, 247, 0)),
+    url(../img/container-background.jpg) center center no-repeat;
+  background-size: cover;
+  cursor: default;
+}
+
+.stats {
+  font-family: "Comfortaa", cursive;
+  letter-spacing: 1px;
+  margin-top: -30px;
+}
+
+.stats-today,
+.stats-total {
+  margin: 50px 0;
+}
+
+.stats-today-confirmed,
+.stats-total-confirmed {
+  color: rgb(211, 211, 17);
+}
+
+.stats-today-deaths,
+.stats-total-deaths {
+  color: rgb(218, 0, 0);
+}
+
+.stats-total-recovered {
+  color: rgb(0, 184, 0);
+}
+
+.source {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  border-bottom: 2px solid rgb(136, 136, 136);
+  padding-bottom: 1px;
+  font-family: "Play", sans-serif;
+  width: 57px;
+  color: rgb(136, 136, 136);
+  letter-spacing: 1px;
+  outline: none;
+  transition: all 0.4s;
+}
+
+.source:hover {
+  border-bottom: 2px solid black;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+}
+
+.footer {
+  position: absolute;
+  bottom: -20%;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 15px;
+  background: white;
+  opacity: 0.95;
+  padding: 18px;
+  border-top: 1px solid rgb(202, 202, 202);
+  z-index: 1;
+  visibility: hidden;
+  transition: bottom 0.8s;
+}
+
+.footer-close-button {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(219, 219, 219);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.footer-close-button:hover {
+  background-color: rgb(199, 199, 199);
+}
+
+/* Media Query */
+@media (max-height: 700px), (max-width: 500px) {
+  .footer {
+    font-size: 22px;
+    padding: 30px;
+    height: 100%;
+    text-align: justify;
+  }
+
+  .footer-close-button {
+    display: block;
+    width: max-content;
+    margin-top: 25px;
+    padding: 20px;
+    font-size: 18px;
+  }
+}
