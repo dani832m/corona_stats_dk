@@ -10,6 +10,6 @@
 
 **EN:** Clone, download or run the code directly via [n4.dk/coronastats](http://n4.dk/coronastats), where it is currently online.
 
-## Screenshot
+## Skærmbillede | Screenshot
 
 <img src="https://i.imgur.com/MjtuAjG.png" alt="Screenshot from UI" width="750" />
