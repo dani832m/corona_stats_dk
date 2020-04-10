@@ -12,4 +12,4 @@
 
 ## Skærmbillede | Screenshot
 
-<img src="https://i.imgur.com/MjtuAjG.png" alt="Screenshot from UI" width="750" />
+<img src="https://i.imgur.com/Amtfn4W.png" alt="Screenshot from UI" />

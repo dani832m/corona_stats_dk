@@ -14,8 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Play:wght@700&display=swap"
       rel="stylesheet"
     />
-    <!-- Custom Stylesheet -->
+    <!-- Custom Stylesheets -->
     <link href="css/main.css" rel="stylesheet" />
+    <link href="css/tooltip.css" rel="stylesheet" />
+    <link href="css/mq.css" rel="stylesheet" />
     <!-- Title Tag -->
     <title>Corona-statistik for den danske befolkning</title>
   </head>
@@ -23,6 +25,7 @@
     <div class="container">
       <div class="stats">
         <h1>Corona i Danmark</h1>
+        <!-- Stats Today -->
         <div class="stats-today">
           <h2>I dag</h2>
           <ul>
@@ -30,13 +33,28 @@
             <li>Døde: <span class="stats-today-deaths"></span></li>
           </ul>
         </div>
+        <!-- Stats Total -->
         <div class="stats-total">
           <h2>I alt</h2>
           <ul>
             <li>Smittede: <span class="stats-total-confirmed"></span></li>
             <li>Kritiske: <span class="stats-total-critical"></span></li>
-            <li>Døde: <span class="stats-total-deaths"></span></li>
-            <li>Raskmeldte: <span class="stats-total-recovered"></span></li>
+            <li>
+              Døde:
+              <span class="stats-total-deaths"></span>
+              <span class="stats-total-tooltip">
+                %
+                <span class="stats-total-tooltip-death-rate stats-total-tooltip-text"></span>
+              </span>
+            </li>
+            <li>
+              Raske:
+              <span class="stats-total-recovered"></span>
+              <span class="stats-total-tooltip">
+                %
+                <span class="stats-total-tooltip-recovery-rate stats-total-tooltip-text"></span>
+              </span>
+            </li>
           </ul>
         </div>
       </div>

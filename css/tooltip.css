@@ -1,0 +1,40 @@
+.stats-total-tooltip {
+   position: relative;
+   display: inline-block;
+   border-radius: 50%;
+   padding: 2.5px 2px 1px 3px;
+   font-size: 10px;
+   vertical-align: middle;
+   background-color: #fff;
+   color: rgb(83, 83, 83);
+   box-shadow: 0 0 4px rgb(167, 167, 167);
+   margin-top: -3px;
+   opacity: 0.6;
+   transition: all 0.4s;
+}
+
+.stats-total-tooltip:hover {
+   transform: rotate(360deg);
+   background-color: rgb(168, 168, 168);
+   color: #fff;
+   opacity: 0.8;
+}
+
+.stats-total-tooltip-text {
+   visibility: hidden;
+   width: max-content;
+   top: 100%;
+   left: 50%;
+   background-color: rgb(41, 41, 41);
+   color: #fff;
+   text-align: center;
+   padding: 5px;
+   margin: 1px;
+   border-radius: 6px;
+   position: absolute;
+   z-index: 1;
+}
+
+.stats-total-tooltip:hover .stats-total-tooltip-text {
+   visibility: visible;
+}
