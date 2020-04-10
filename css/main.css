@@ -121,7 +121,7 @@ li {
 }
 
 /* Media Query */
-@media (max-height: 700px), (max-width: 500px) {
+@media (max-width: 500px) {
   .footer {
     font-size: 22px;
     padding: 30px;
