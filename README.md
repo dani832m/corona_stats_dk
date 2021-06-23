@@ -8,9 +8,9 @@
 
 ## Prøv klienten | Try the client
 
-**DK:** Klon, hent eller kør koden direkte via [n4.dk/coronastats](http://n4.dk/coronastats), hvor den i skrivende stund ligger online.
+**DK:** Klon/download koden og kør den lokalt i din browser.
 
-**EN:** Clone, download or run the code directly via [n4.dk/coronastats](http://n4.dk/coronastats), where it is currently online.
+**EN:** Clone/download the code and run it locally in your browser.
 
 ## Skærmbillede | Screenshot
 
